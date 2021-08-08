@@ -1,0 +1,37 @@
+
+
+
+{% extends 'layout.html' %}
+
+
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static/styles',filename='my_style.css') }}">
+
+
+
+{% block body %}
+
+    <div class = "div">
+        <h1 class="h1" >Defensive Technologies</h1>
+    <p class="p1">
+
+        in our company, we have implemented the following defensive technologies;
+
+        <ol>
+
+        <li>Dedrone</li>
+        <li>Fortem Technologies</li>
+        <li>DroneShield</li>
+        <li>Airspace Systems</li>
+        <li>SkySafe</li>
+       
+
+    </ol>
+
+    </p>
+    </div>
+
+
+
+
+{% endblock %}

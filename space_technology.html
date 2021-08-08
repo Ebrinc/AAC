@@ -1,0 +1,36 @@
+
+{% extends 'layout.html' %}
+
+
+
+<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static/styles',filename='my_style.css') }}">
+
+
+
+{% block body %}
+
+    <div class = "div">
+        <h1 class="h1" >Space Technology</h1>
+    <p class="p1">
+        Space technologies are impotant in any arline company. The following are the space technologies that we offer.
+
+        <ol>
+        <li>SELENE Lunar Orbiter.</li>
+        <li>Hubble Space Telescope</li>
+        <li>WISE and NeoWISE Probe</li>
+        <li>Kepler Spacecraft</li>
+        <li>Mars Reconnaissance Orbiter</li>
+        <li>Cassini-Huygens Probe</li>
+        <li>Spirit and Opportunity Rovers</li>
+
+
+       </ol>
+
+
+    </p>
+    </div>
+
+
+
+
+{% endblock %}
